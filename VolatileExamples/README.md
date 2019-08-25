@@ -1,13 +1,13 @@
 Volatile Keyword can be used for variables only and not applicable for methods and class.
 
-#Volatile
+# 1 Volatile
 
 When we declared variable as  volatile then that variable value will be updated into main memory instead in cache. So whenver  multiple 
 threads accessing the same variable then will get the latest value from the main memory.
 
 Each thread will fetch the variable value from main memory instead cache
 
-#Example Program Output
+# **bold** Example Program Output
 
 [Thread T0]: Old value = 0
 [Thread T0]: New value = 1
