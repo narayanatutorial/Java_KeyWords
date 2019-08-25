@@ -1,14 +1,14 @@
 Volatile Keyword can be used for variables only and not applicable for methods and class.
 
-# 1 Volatile
+# Java Volatile Keyword
 
-When we declared variable as  volatile then that variable value will be updated into main memory instead in cache. So whenver  multiple 
+When we declared variable as  volatile then that variable value will be updated into main memory instead in cache. So whenever  multiple 
 threads accessing the same variable then will get the latest value from the main memory.
 
 Each thread will fetch the variable value from main memory instead cache
 
-# **bold** Example Program Output
-
+# Example Program Output
+<pre>
 [Thread T0]: Old value = 0
 [Thread T0]: New value = 1
 [Thread T2]: Old value = 1
